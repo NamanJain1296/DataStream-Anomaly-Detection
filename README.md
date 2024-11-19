@@ -8,6 +8,8 @@ This project implements a Python script to detect anomalies in a continuous data
 - **Anomaly Detection**: Utilizes Z-Score-based detection with a sliding window.
 - **Real-Time Visualization**: Displays the data stream and detected anomalies dynamically.
 
+---
+
 ## Techniques Used
 ### Data Stream Simulation
 - Simulates a sinusoidal seasonal pattern with added Gaussian noise to emulate real-world data behavior.
@@ -20,7 +22,9 @@ This project implements a Python script to detect anomalies in a continuous data
 - Benefits:
   - Simple and computationally efficient for streaming data.
   - Adapts dynamically to changes in the data stream (concept drift).
- 
+
+---
+
 ## Key Concepts and Insights
 - **Z-Score Anomaly Detection**: 
   - Identifies outliers by measuring the number of standard deviations a data point is from the mean.
@@ -30,17 +34,26 @@ This project implements a Python script to detect anomalies in a continuous data
 - **Real-Time Visualization**:
   - Implements a live plot using `matplotlib` for immediate feedback on detected anomalies.
 
-### Visualization
-- Real-time plotting using `matplotlib`.
-- Highlights anomalies with distinct markers for easy identification.
+---
+
+## Visualization
+### Screenshot
+![Output Screenshot](output.png)
+
+### Video Demonstration
+[![Video Demonstration](https://img.youtube.com/vi/vG7Opw68F4g/0.jpg)](https://youtu.be/vG7Opw68F4g)
+
+---
 
 ## Real-World Applications
 - **Fraud Detection**: Identifying unusual transactions in financial data.
 - **System Monitoring**: Detecting spikes or drops in system metrics like CPU usage or network traffic.
 - **IoT Applications**: Monitoring sensor data for anomalies in smart devices.
 
+---
+
 ## How to Run
-1. Clone this repository.
-2. Install dependencies using:
+1. Clone this repository:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/NamanJain1296/DataStream-Anomaly-Detection.git
+   cd DataStream-Anomaly-Detection
